@@ -1,0 +1,114 @@
+/* Osnovna pozadina stranice */
+body {
+    background: linear-gradient(to right, #FF7F50, #FF6347); /* Gradijent narandžaste boje */
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stil za header, u ovom slučaju baner */
+header {
+    background-color: #FF4500; /* Tamnija narandžasta */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Stil za glavne komponente kao što su formati i dugmadi */
+main {
+    padding: 20px;
+}
+
+/* Dugmadi sa narandžastim tonovima */
+button {
+    background-color: #FFA500; /* Svetlija narandžasta */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FF8C00; /* Tamnija narandžasta pri hoveru */
+}
+
+button:active {
+    background-color: #FF7F50; /* Još tamnija narandžasta pri kliku */
+}
+
+/* Input polja sa narandžastim okvirima */
+input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="datetime-local"], select {
+    background-color: #FFD700; /* Svetlija narandžasta pozadina */
+    border: 2px solid #FF8C00; /* Tamniji okvir */
+    color: #333;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="date"]:focus, input[type="datetime-local"]:focus, select:focus {
+    border-color: #FF4500; /* Tamniji narandžasti okvir pri fokusu */
+    outline: none;
+}
+
+/* Stil za linkove */
+a {
+    color: #FF6347; /* Svetlija narandžasta za linkove */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FF4500; /* Tamnija narandžasta pri hoveru */
+}
+
+/* Footer sa kontakt informacijama */
+footer {
+    background-color: #FF6347; /* Tamnija narandžasta za footer */
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+/* Stil za tabele */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #FF7F50; /* Tamnija narandžasta za zaglavlje tabele */
+}
+
+table tr:nth-child(even) {
+    background-color: #FFE4B5; /* Svetlija pozadina za parne redove */
+}
+
+table tr:hover {
+    background-color: #FF4500; /* Tamnija pozadina na hover */
+}
+
+/* Forme */
+form {
+    background-color: #FF8C00; /* Tamnija narandžasta pozadina forme */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
