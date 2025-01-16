@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $result = $stmt->fetchColumn();
     
     if ($result > 0) {
-        // Ako ima, zakazivanje na sledeći mogući termin
+        // Ako ima zakazan pregled onda ide zakazivanje na sledeći mogući termin
         $datum = date('Y-m-d H:i', strtotime('+1 hour', strtotime($datum)));
     }
     
