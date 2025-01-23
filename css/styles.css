@@ -1,15 +1,13 @@
-/* Osnovna pozadina stranice */
 body {
-    background: linear-gradient(to right, #FF7F50, #FF6347); /* Gradijent narandžaste boje */
+    background: linear-gradient(to right, #FF7F50, #FF6347);
     font-family: Arial, sans-serif;
     color: #fff;
     margin: 0;
     padding: 0;
 }
 
-/* Stil za header, u ovom slučaju baner */
 header {
-    background-color: #FF4500; /* Tamnija narandžasta */
+    background-color: #FF4500;
     padding: 20px;
     text-align: center;
 }
@@ -19,14 +17,12 @@ header h1 {
     margin: 0;
 }
 
-/* Stil za glavne komponente kao što su formati i dugmadi */
 main {
     padding: 20px;
 }
 
-/* Dugmadi sa narandžastim tonovima */
 button {
-    background-color: #FFA500; /* Svetlija narandžasta */
+    background-color: #FFA500; 
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -38,17 +34,17 @@ button {
 }
 
 button:hover {
-    background-color: #FF8C00; /* Tamnija narandžasta pri hoveru */
+    background-color: #FF8C00; 
 }
 
 button:active {
-    background-color: #FF7F50; /* Još tamnija narandžasta pri kliku */
+    background-color: #FF7F50;
 }
 
 /* Input polja sa narandžastim okvirima */
 input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="datetime-local"], select {
-    background-color: #FFD700; /* Svetlija narandžasta pozadina */
-    border: 2px solid #FF8C00; /* Tamniji okvir */
+    background-color: #FFD700;
+    border: 2px solid #FF8C00;
     color: #333;
     padding: 10px;
     font-size: 16px;
@@ -58,31 +54,28 @@ input[type="text"], input[type="password"], input[type="email"], input[type="dat
 }
 
 input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="date"]:focus, input[type="datetime-local"]:focus, select:focus {
-    border-color: #FF4500; /* Tamniji narandžasti okvir pri fokusu */
+    border-color: #FF4500;
     outline: none;
 }
 
-/* Stil za linkove */
 a {
-    color: #FF6347; /* Svetlija narandžasta za linkove */
+    color: #FF6347; 
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: #FF4500; /* Tamnija narandžasta pri hoveru */
+    color: #FF4500; 
 }
 
-/* Footer sa kontakt informacijama */
 footer {
-    background-color: #FF6347; /* Tamnija narandžasta za footer */
+    background-color: #FF6347; 
     color: #fff;
     text-align: center;
     padding: 15px;
     font-size: 14px;
 }
 
-/* Stil za tabele */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -94,20 +87,19 @@ table th, table td {
 }
 
 table th {
-    background-color: #FF7F50; /* Tamnija narandžasta za zaglavlje tabele */
+    background-color: #FF7F50;
 }
 
 table tr:nth-child(even) {
-    background-color: #FFE4B5; /* Svetlija pozadina za parne redove */
+    background-color: #FFE4B5;
 }
 
 table tr:hover {
-    background-color: #FF4500; /* Tamnija pozadina na hover */
+    background-color: #FF4500;
 }
 
-/* Forme */
 form {
-    background-color: #FF8C00; /* Tamnija narandžasta pozadina forme */
+    background-color: #FF8C00;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
