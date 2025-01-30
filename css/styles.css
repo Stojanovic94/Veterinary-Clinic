@@ -41,7 +41,6 @@ button:active {
     background-color: #FF7F50;
 }
 
-/* Input polja sa narandžastim okvirima */
 input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="datetime-local"], select {
     background-color: #FFD700;
     border: 2px solid #FF8C00;
